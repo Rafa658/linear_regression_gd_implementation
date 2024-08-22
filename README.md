@@ -7,7 +7,9 @@ $$ y = m_1 x_1 + m_2 x_2 + ... + m_n x_n + c $$
 Onde $m_1$, $m_2$, ..., $m_n$ são os pesos de cada variável e $c$ um viés. O modelo será treinado com base em $m$ amostras, de forma que:
 
 $$ y_1 = m_1 x^1_1 + m_2 x^1_2 + ... + m_n x^1_n + c $$
+
 $$ y_2 = m_1 x^2_1 + m_2 x^2_2 + ... + m_n x^2_n + c $$
+
 $$ y_m = m_1 x^m_1 + m_2 x^m_2 + ... + m_n x^m_n + c $$
 
 Ainda, pode ser escrito em termos matriciais: $\textbf{y} = \textbf{X} \textbf{w}$
